@@ -1,4 +1,7 @@
 module.exports = {
+	glboalExtends: [
+		"global:safeEnv"
+	],
 	allowedEnv: [
 		'SOME_ENV',
 		'MEND_VENDIR_GITHUB_API_TOKEN'

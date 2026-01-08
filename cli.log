@@ -1,0 +1,37 @@
+DEBUG: http cache: saving https://api.github.com/repos/JamieTanna-Mend-testing/reconfigure/contents/renovate.json (etag=W/"360b34a1c2b4699de689e70b4ab88c6817519a72", lastModified=Thu, 08 Jan 2026 16:53:29 GMT) (repository=JamieTanna-Mend-t
+esting/reconfigure)
+DEBUG: Config does not need migration (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: ensureDependencyDashboard() (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: Closing Dependency Dashboard (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: checkReconfigureBranch() (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: findPr(renovate/reconfigure, undefined, open) (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: http cache: saving https://api.github.com/repos/JamieTanna-Mend-testing/reconfigure/pulls?head=JamieTanna-Mend-testing:renovate/reconfigure&state=open (etag="58e93ef917b876e6d03f32a08aa85915c37ab73b70c9edfbc48e5fd01a0b7cfb", lastMod
+ified=undefined) (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: No PR found for branch renovate/reconfigure (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: Setting current branch to renovate/reconfigure (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: latest commit (repository=JamieTanna-Mend-testing/reconfigure)
+       "branchName": "renovate/reconfigure",
+       "latestCommitDate": "2026-01-08T17:06:13Z",
+       "sha": "155790a18176944708982cbcba93ef913a737c36"
+DEBUG: validateReconfigureBranch() (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: http cache: saving https://api.github.com/repos/JamieTanna-Mend-testing/reconfigure/commits/155790a18176944708982cbcba93ef913a737c36/statuses (etag="58e93ef917b876e6d03f32a08aa85915c37ab73b70c9edfbc48e5fd01a0b7cfb", lastModified=und
+efined) (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: Setting branch status (repository=JamieTanna-Mend-testing/reconfigure, branch=renovate/reconfigure)
+       "context": "renovate/config-validation",
+       "state": "green"
+DEBUG: http cache: saving https://api.github.com/repos/JamieTanna-Mend-testing/reconfigure/commits/renovate/reconfigure/status (etag=W/"2da0bd4407109502387874213cf3e871408cbb82f8ec848c67406aa6f265c5bb", lastModified=undefined) (repository=
+JamieTanna-Mend-testing/reconfigure)
+DEBUG: No reconfigure pr found. Skipping dependencies extraction (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: Setting current branch to main (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: latest commit (repository=JamieTanna-Mend-testing/reconfigure)
+       "branchName": "main",
+       "latestCommitDate": "2026-01-08T16:53:29Z",
+       "sha": "c522ebe068d4c4f7452ddf3bda1b660874399883"
+DEBUG: Removing any stale branches (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: config.repoIsOnboarded=true (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: No renovate branches found (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: closeIssue(1) (repository=JamieTanna-Mend-testing/reconfigure)
+lDEBUG: Issues cache: Updating issue 1 in cache (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: Issue closed, issueNo: 1 (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: PackageFiles.clear() - Package files deleted (repository=JamieTanna-Mend-testing/reconfigure)
+DEBUG: Branch summary (repository=JamieTanna-Mend-testing/reconfigure)

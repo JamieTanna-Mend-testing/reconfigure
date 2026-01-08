@@ -1,6 +1,6 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"env": {
-		"SOME_ENV": "{{ secrets.SOME_ENV }}"
+		"MEND_VENDIR_GITHUB_API_TOKEN": "{{ secrets.MEND_VENDIR_GITHUB_API_TOKEN }}"
 	}
 }
